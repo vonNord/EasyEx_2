@@ -32,15 +32,10 @@ This example only defaults the state to true (it is November in Norway). We shal
 And that's it.
 
 
+Except that we are not really done.
 
-
-
-
-
-
-
-
-
-
-
-```
+I made some more examples (this is number two):
+*   https://github.com/vonNord/EasyEx
+*   https://github.com/vonNord/EasyEx_2
+*   https://github.com/vonNord/EasyEx_3
+*   https://github.com/vonNord/EasyEx_4
