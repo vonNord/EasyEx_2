@@ -26,7 +26,8 @@ This example only defaults the state to true (it is November in Norway). We shal
 1.  Which in turn leads us to the RainingTypes file.
     The interface which is returned in the action creator function is the IRainingCheckboxClickAction, and as you can see, it has gotten a ```isRaining: boolean``` element.
 1.  Lets look at the reducer.
-    The only change here is that the reducer takes its rainState from the action instead of the state, ```rainState: action.isRaining```. (Previously it just flipped the state ```rainState: !state.rainState ```.)
+    1.  We have changed the initialRainingState's rainState to be true at the start. This will make the app start in the raining state, which means that the checkbox will be checked.
+    1.  Also,  the reducer takes its rainState from the action instead of the state, ```rainState: action.isRaining```. (Previously it just flipped the state ```rainState: !state.rainState ```.)
 
 And that's it.
 
